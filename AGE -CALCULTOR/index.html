@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="app.js" defer></script>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gradient-to-r from-green-400 to-blue-500">
+    <div class="bg-gray-900 text-white p-8 rounded-2xl shadow-2xl w-96 text-center border border-gray-700">
+        <h1 class="text-2xl font-extrabold mb-6">🎂 Age Calculator</h1>
+        <input type="date" id="birthdate" class="w-full p-3 rounded-lg text-lg font-mono border border-gray-600 bg-gray-800 text-white" />
+        <button id="calculate-btn" class="mt-4 bg-gradient-to-r from-yellow-500 to-orange-600 hover:from-orange-600 hover:to-yellow-500 text-white font-bold py-3 px-6 rounded-lg shadow-md transform transition duration-300 hover:scale-105">Calculate Age</button>
+        <div id="age" class="bg-gray-800 p-4 mt-4 rounded-lg text-lg font-mono tracking-wider border border-gray-600 shadow-inner">Your Age will be displayed here</div>
+    </div>
+</body>
+</html>
+
